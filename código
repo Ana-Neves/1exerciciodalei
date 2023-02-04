@@ -1,0 +1,11 @@
+num novaEnergiaInterna(num u, num q, num w) {
+  return u + q - w;
+}
+
+void main() {
+  num u = 100;
+  num q = 50;
+  num w = 12;
+
+  print("A nova energia interna é ${novaEnergiaInterna(u, q, w)} J");
+}
